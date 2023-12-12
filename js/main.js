@@ -97,11 +97,9 @@
 */
 
 //start loading
-$(document).ready(function(){
-
-    $("#loading").remove();
-
-});
+document.body.onload = function(){
+    document.getElementById("loading").style.display = "none";
+}
     
 //end loading
 
